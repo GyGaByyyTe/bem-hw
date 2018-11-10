@@ -1,0 +1,9 @@
+.Header-Left {
+  display: inline-block;
+  vertical-align: middle;
+}
+@media (max-width: 640px) {
+  .Header-Left {
+    width: 49%;
+  }
+}

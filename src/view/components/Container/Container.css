@@ -1,0 +1,9 @@
+.Container {
+  padding: 1rem 1.67rem 0 1.67rem;
+  position: relative;
+}
+@media (min-width: 1024px) {
+  .Container {
+    padding: 2.17rem 3.33rem 0;
+  }
+}

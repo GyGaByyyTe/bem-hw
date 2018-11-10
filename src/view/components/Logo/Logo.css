@@ -1,0 +1,15 @@
+.Logo {
+  display: inline-block;
+  width: 9.17rem;
+  height: 3.08rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./Logo.svg");
+  margin-right: 4.33rem;
+}
+@media (max-width: 640px) {
+  .Logo {
+    margin-right: 0;
+  }
+}

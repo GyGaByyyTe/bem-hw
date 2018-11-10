@@ -1,0 +1,14 @@
+.Header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background-color: #fff;
+}
+@media (min-width: 1024px) {
+  .Header {
+    position: static;
+    padding-bottom: 2.75rem;
+    border-bottom: 1px solid #f7f7f7;
+  }
+}

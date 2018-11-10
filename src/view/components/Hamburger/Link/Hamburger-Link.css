@@ -1,0 +1,38 @@
+.Hamburger-Link {
+  position: relative;
+  display: inline-block;
+  font-size: 0;
+  width: 1.33rem;
+  height: 1.11rem;
+}
+.Hamburger-Link:before {
+  content: " ";
+  height: 3px;
+  top: 0;
+  transform: translateY(0);
+  transform-origin: 0 50%;
+
+  transition: all 0.3s;
+
+  position: absolute;
+  left: 0;
+  width: 100%;
+  background-color: rgba(51, 51, 51, 0.9);
+  border-radius: 3px;
+}
+
+.Hamburger-Link:after {
+  content: " ";
+  height: 3px;
+  top: 100%;
+  transform: translateY(-100%);
+  transform-origin: 0 50%;
+
+  transition: all 0.3s;
+
+  position: absolute;
+  left: 0;
+  width: 100%;
+  background-color: rgba(51, 51, 51, 0.9);
+  border-radius: 3px;
+}

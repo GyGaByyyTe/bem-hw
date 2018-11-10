@@ -1,0 +1,10 @@
+.Header-Right {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+}
+@media (max-width: 640px) {
+  .Header-Right {
+    width: 49%;
+  }
+}

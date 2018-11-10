@@ -1,0 +1,11 @@
+.Footer-Copyright {
+  margin-left: auto;
+  font-size: 15px;
+}
+
+@media (max-width: 640px) {
+  .Footer-Copyright {
+    margin-top: 1rem;
+    text-align: center;
+  }
+}

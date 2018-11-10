@@ -1,0 +1,13 @@
+.Footer-Link {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+  background: transparent;
+  color: inherit;
+}
+
+@media (max-width: 640px) {
+  .Footer-Link {
+    padding: 1rem;
+  }
+}

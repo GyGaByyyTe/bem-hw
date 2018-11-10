@@ -1,0 +1,10 @@
+.Hamburger-Line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: rgba(51, 51, 51, 0.9);
+  border-radius: 3px;
+  transform: translateY(-50%);
+}

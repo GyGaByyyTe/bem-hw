@@ -1,0 +1,14 @@
+.Footer {
+  padding: 1rem 0;
+  background-color: #f0f0f0;
+  color: #858585;
+  flex: 0 0 auto;
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  .Footer {
+    display: flex;
+    background-color: transparent;
+    padding: 1.83rem 3.33rem 2.33rem 3.33rem;
+  }
+}
