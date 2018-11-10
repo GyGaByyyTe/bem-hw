@@ -1,0 +1,28 @@
+import * as React from "react";
+import { cn } from "@bem-react/classname";
+
+import { MenuItem } from "../Item/Menu-Item";
+
+import "./Menu-List.css";
+
+export interface IMenuListProps {
+  active: string;
+  list: { id: string; text: string }[];
+}
+
+const cnMenu = cn("Menu");
+
+export const MenuList: React.SFC<IMenuListProps> = props => {
+  return (
+    <ul className={cnMenu("List")}>
+      {props.list.map((item, index) => (
+        <MenuItem
+          key={btoa(index.toString() + item.id)}
+          isActive={props.active === item.id}
+          id={item.id}
+          text={item.text}
+        />
+      ))}
+    </ul>
+  );
+};

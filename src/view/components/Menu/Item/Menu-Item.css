@@ -1,0 +1,19 @@
+.Menu-Item {
+  opacity: 0.6;
+  font-weight: bold;
+  font-size: 1.33rem;
+  color: #858585;
+  display: inline-block;
+  margin-right: 2.33rem;
+}
+@media (max-width: 640px) {
+  .Menu-Item {
+    display: list-item;
+    margin-right: 0;
+  }
+}
+
+.Menu-Item_active {
+  color: #333333;
+  opacity: 1;
+}

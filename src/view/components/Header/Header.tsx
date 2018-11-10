@@ -20,9 +20,9 @@ export const Header: React.SFC = () => (
 //+ .header__left
 //+ 	a(href="#").logo
 //+ .header__right
-// 	div#hamburger.hamburger
-// 		a(href="#").hamburger__link Меню
-// 			.hamburger__line
+//+ 	div#hamburger.hamburger
+//+ 		a(href="#").hamburger__link Меню
+//+ 			.hamburger__line
 // 	nav.menu
 // 		ul.menu__list
 // 			-

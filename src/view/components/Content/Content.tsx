@@ -9,8 +9,8 @@ import "../Content/Content.css";
 const cnContent = cn("Content");
 
 export const Content: React.SFC = () => (
-  <header className={cnContent()}>
+  <div className={cnContent()}>
     <Header />
     <Footer />
-  </header>
+  </div>
 );
