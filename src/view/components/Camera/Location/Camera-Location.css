@@ -1,0 +1,23 @@
+.Camera-Location {
+  width: 60px;
+  height: 100%;
+  margin-left: 20px;
+}
+.Camera-Range {
+  height: 100%;
+  border: 1px solid black;
+  position: relative;
+  background-image: url("../image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Camera-RangePointer {
+  position: absolute;
+  content: " ";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid red;
+  width: 20px;
+  height: 33.3%;
+}

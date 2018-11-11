@@ -14,5 +14,22 @@
   outline: none;
 }
 html {
-  font-size: 12px;
+	font-size: 12px;
+	height: 100%;
+}
+body {
+	height: 100%;
+}
+#root {
+	height: 100%;
+}
+.App {
+	height: 100%;
+  position: relative;
+  color: #000;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
 }

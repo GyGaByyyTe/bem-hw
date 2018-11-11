@@ -1,0 +1,20 @@
+.Footer-Item {
+  display: inline-block;
+  margin-right: 1rem;
+}
+.Footer-Item:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 640px) {
+  .Footer-Item {
+    display: list-item;
+    border: 1px solid #858585;
+    border-radius: 3px;
+    margin-bottom: 0.5rem;
+    margin-right: 0;
+  }
+  .Footer-Item:last-child {
+    margin-bottom: 0;
+  }
+}

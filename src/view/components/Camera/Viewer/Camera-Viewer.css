@@ -1,0 +1,27 @@
+.Camera-Viewer {
+  position: relative;
+}
+.Camera-Image {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.Camera-Source {
+  max-width: 100%;
+  max-height: 100%;
+  border: none;
+  touch-action: none;
+
+  position: relative;
+  left: 0;
+  top: 0;
+  transform: scale(1, 1);
+
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -webkit-touch-callout: none;
+}

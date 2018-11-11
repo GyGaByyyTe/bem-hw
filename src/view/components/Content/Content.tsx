@@ -2,7 +2,7 @@ import * as React from "react";
 import { cn } from "@bem-react/classname";
 
 import { Header } from "../Header/Header";
-import { Footer } from "../Footer/Footer";
+import { Camera } from "../Camera/Camera";
 
 import "../Content/Content.css";
 
@@ -11,6 +11,6 @@ const cnContent = cn("Content");
 export const Content: React.SFC = () => (
   <div className={cnContent()}>
     <Header />
-    <Footer />
+    <Camera />
   </div>
 );
