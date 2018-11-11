@@ -6,7 +6,7 @@ import { MenuItemActive } from "./_active/Menu-Item_active";
 import { IMenuLinkProps } from "../Link/Menu-Link";
 
 export interface IMenuItemProps extends IMenuLinkProps, IClassNameProps {
-  active?: true;
+  active?: boolean;
 }
 
 export const MenuItem = compose(MenuItemActive)(Base);

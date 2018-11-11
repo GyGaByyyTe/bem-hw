@@ -8,9 +8,13 @@ import "./Header-Right.css";
 
 const cnHeader = cn("Header");
 
-export const HeaderRight: React.SFC = () => (
-  <div className={cnHeader("Right")}>
-    <Hamburger />
-    <Menu />
-  </div>
-);
+export class HeaderRight extends React.Component {
+  render() {
+    return (
+      <div className={cnHeader("Right")}>
+        <Hamburger />
+        <Menu />
+      </div>
+    );
+  }
+}

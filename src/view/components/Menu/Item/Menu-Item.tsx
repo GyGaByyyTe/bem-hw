@@ -8,8 +8,12 @@ import "./Menu-Item.css";
 
 const cnMenu = cn("Menu");
 
-export const MenuItem: React.SFC<IMenuItemProps> = props => (
-  <li className={cnMenu("Item")}>
-    <MenuLink id={props.id} text={props.text} />
+export const MenuItem: React.SFC<IMenuItemProps> = ({
+  id,
+  text,
+  className
+}) => (
+  <li className={className}>
+    <MenuLink id={id} text={text} />
   </li>
 );

@@ -1,13 +1,16 @@
 import React, { Component } from "react";
+import { cn } from "@bem-react/classname";
 
 import "./App.css";
-import { Content } from "./view/components/Content/Content";
-import { Footer } from "./view/components/Footer/Footer";
+import { Content } from "../Content/Content";
+import { Footer } from "../Footer/Footer";
+
+const cnApp = cn("App");
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className={cnApp()}>
         <Content />
         <Footer />
       </div>
